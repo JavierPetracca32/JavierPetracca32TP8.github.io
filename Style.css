@@ -1,0 +1,219 @@
+/* Header Index */
+header{
+    padding-top: 2%;
+    padding-bottom: 0,1%;
+    text-align: center;
+    }
+
+header h1{
+    font-family: Bienvenidos;
+    font-size: 300%;
+    font-weight: bolder;}
+
+    @font-face {
+        font-family: Bienvenidos;
+        src: url(RubikPuddles-Regular.ttf);}
+
+
+header h4{
+    font-family: Titulos Pestañas;    
+    text-align: center;}
+
+    @font-face {
+        font-family: Titulos Pestañas;
+        src: url(IndieFlower-Regular.ttf);}
+
+header p{
+    border: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+    font-family: intro;    
+    text-align: justify;
+   
+    }  
+
+    @font-face {
+        font-family: intro;
+        src: url(DancingScript-VariableFont_wght.ttf);}
+
+       
+
+/* Nav Ul */
+#nav{
+    font-family: Titulos Pestañas;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    justify-content: right; 
+  
+}
+
+#searchbar{
+    border-color: white;
+    justify-content: right; 
+
+}
+
+#sbutton{
+    background-image: url(SPNG.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 1%;
+    border-color: white;
+    width: 20%;
+    justify-content: right;    
+}
+
+#rebaño{
+    background-image:url(rebaño2.jpg);
+    background-size:cover;
+    width: 50%;
+    border-color: rgb(176, 174, 174);
+}
+  
+#Register{
+    font-family:Register;
+    -webkit-text-fill-color: rgb(250, 249, 249);
+    -webkit-text-stroke: 2px rgb(10, 10, 10);}
+
+@font-face {
+    font-family: Register;
+    src: url(PressStart2P-Regular.ttf);}
+
+.navbar-collapse{
+    min-height: 10%;
+}
+
+@font-face {
+    font-family: Titulos Pestañas;
+    src: url(IndieFlower-Regular.ttf);}
+  
+body{
+    border:1%;
+    padding:1%;
+}
+
+main h3{
+    text-align: center;
+    background-color: rgb(251, 230, 230);
+    border-top: 10%;}
+
+section{
+        margin-bottom: 1%;
+}
+    
+.Catalogo{
+    text-align: center;
+    font-family: Titulos Pestañas;
+    width: 100%;
+    border: 0cap;
+}
+
+.Catalogo a{
+text-decoration: none;
+}
+
+    @font-face {
+        font-family: Titulos Pestañas;
+        src: url(IndieFlower-Regular.ttf);}
+
+
+.Catalogo img{
+            height: 80%;
+            align-content: center;
+            }
+
+  
+    
+/* Horarios */
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+    
+    th{text-align: left;}
+
+    @font-face {
+        font-family: Titulos Pestañas;
+        src: url(IndieFlower-Regular.ttf);}
+
+    #horarios{
+        font-family: Titulos Pestañas;
+        font-size: large;}
+
+    /* Dias */
+    #lunes{color: blue;font-size: medium; font-weight: bold;}
+    #martes{color: rgb(196, 111, 235);font-size: medium; font-weight: bold;}
+    #miercoles{color: rgb(79, 178, 114);font-size: medium; font-weight: bold;}
+    #jueves{color: rgb(149, 189, 8);font-size: medium; font-weight: bold;}
+    #viernes{color: rgb(107, 43, 43);font-size: medium; font-weight: bold;}
+    #sabado{color: rgb(10, 152, 159);font-size: medium; font-weight: bold;}
+
+    /* Mañana */
+    #ml{color: blue; font-size: smaller;}
+    #mm{color: rgb(196, 111, 235);font-size: smaller;font-style: italic;}
+    #mmi{color: rgb(79, 178, 114);font-size: smaller;font-style: italic;}
+    #mj{color: rgb(149, 189, 8);font-size: smaller;font-style: italic;}
+    #mv{color: rgb(107, 43, 43);font-size: smaller;font-style: italic;}
+    #ms{color: rgb(10, 152, 159);font-size: smaller;font-style: italic;}
+
+    /* Tarde */
+    #tl{color: blue;font-size: smaller;font-style: italic;}
+    #tm{color: rgb(196, 111, 235);font-size: smaller;font-style: italic;}
+    #tmi{color: rgb(79, 178, 114);font-size: smaller;font-style: italic;}
+    #tj{color: rgb(149, 189, 8);font-size: smaller;font-style: italic;}
+    #tv{color: rgb(107, 43, 43);font-size: smaller;font-style: italic;}
+    #ts{color: rgb(10, 152, 159);font-size: smaller;font-style: italic;}
+
+     /* Contactos */
+     @font-face{
+        font-family: Titulos Pestañas;
+        src: url(IndieFlower-Regular.ttf);}
+    
+    #contacto{
+        border-top: 10%;
+        font-family: Titulos Pestañas;
+        font-size: large;         
+    }
+
+    #back3.img{
+        background-repeat: repeat-x;
+        background-size: contain; 
+        opacity: .5;
+    }
+
+   
+
+    /* Reclamos */
+    @font-face{
+        font-family: Titulos Pestañas;
+        src: url(IndieFlower-Regular.ttf);}
+    
+    #reclamos{
+        border-top: 10%;
+        font-family: Titulos Pestañas;
+        font-size: large;
+        text-align: center;}
+
+    /* Footer */
+    @font-face{
+        font-family: Title;
+        src: url(IndieFlower-Regular.ttf);}
+
+    footer{
+        font-family: Title;
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+        background-color: aliceblue;}  
+
+
+  
+
+
+
+
+    
